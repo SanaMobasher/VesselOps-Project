@@ -1,38 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Training (IST)\\VesselOps\\",
+  "WorkspaceRootPath": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|d:\\training (ist)\\vesselops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\VSGeneratedDocuments\\71f1de9a-94ae-d8bf-55a0-2ef9bb4e5ec1\\OpenApiXmlCommentSupport.generated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|d:\\training (ist)\\vesselops\\vesselops.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|solutionrelative:vesselops.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|d:\\training (ist)\\vesselops\\controllers\\crewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|solutionrelative:controllers\\crewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\controllers\\crewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:controllers\\crewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Training (IST)\\VesselOps\\Migrations\\20251219141525_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251219141525_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|d:\\training (ist)\\vesselops\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|d:\\training (ist)\\vesselops\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|d:\\training (ist)\\vesselops\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|d:\\training (ist)\\vesselops\\models\\crewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0235B228-8A9A-4C1F-A465-21F38DCF071F}|VesselOps.csproj|solutionrelative:models\\crewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\vesselops.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:vesselops.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\migrations\\20251219141525_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:migrations\\20251219141525_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|d:\\training (ist)\\vesselops-fullstack\\vesselops\\models\\crewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1963A054-09E4-BDB0-BA37-D9C8DEF66479}|VesselOps.csproj|solutionrelative:models\\crewmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,50 +61,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VesselOps",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\VesselOps.csproj",
-              "RelativeDocumentMoniker": "VesselOps.csproj",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\VesselOps.csproj",
-              "RelativeToolTip": "VesselOps.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-19T14:11:55.556Z",
+              "DocumentIndex": 0,
+              "Title": "OpenApiXmlCommentSupport.generated.cs [generated]",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\VSGeneratedDocuments\\71f1de9a-94ae-d8bf-55a0-2ef9bb4e5ec1\\OpenApiXmlCommentSupport.generated.cs",
+              "ToolTip": "OpenApiXmlCommentSupport.generated.cs [generated by Microsoft.AspNetCore.OpenApi.SourceGenerators.XmlCommentGenerator]",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenToolTip": "OpenApiXmlCommentSupport.generated.cs [generated by Microsoft.AspNetCore.OpenApi.SourceGenerators.XmlCommentGenerator]",
+              "WhenOpened": "2025-12-19T20:31:33.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T20:31:09.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T20:30:54.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CrewController.cs",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\Controllers\\CrewController.cs",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Controllers\\CrewController.cs",
               "RelativeDocumentMoniker": "Controllers\\CrewController.cs",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\Controllers\\CrewController.cs",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Controllers\\CrewController.cs",
               "RelativeToolTip": "Controllers\\CrewController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T14:17:34.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "20251219141525_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\Migrations\\20251219141525_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Migrations\\20251219141525_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20251219141525_InitialCreate.cs",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\Migrations\\20251219141525_InitialCreate.cs",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Migrations\\20251219141525_InitialCreate.cs",
               "RelativeToolTip": "Migrations\\20251219141525_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:15:26.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T14:15:26.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\Program.cs",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\Program.cs",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,24 +137,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\appsettings.Development.json",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-19T14:12:37.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T14:12:37.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\appsettings.json",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\appsettings.json",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -128,11 +162,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext.cs",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\AppDbContext.cs",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\AppDbContext.cs",
               "RelativeToolTip": "AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,15 +176,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "VesselOps.csproj",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\VesselOps.csproj",
+              "RelativeDocumentMoniker": "VesselOps.csproj",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\VesselOps.csproj",
+              "RelativeToolTip": "VesselOps.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-19T14:11:55.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CrewMember.cs",
-              "DocumentMoniker": "D:\\Training (IST)\\VesselOps\\Models\\CrewMember.cs",
+              "DocumentMoniker": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Models\\CrewMember.cs",
               "RelativeDocumentMoniker": "Models\\CrewMember.cs",
-              "ToolTip": "D:\\Training (IST)\\VesselOps\\Models\\CrewMember.cs",
+              "ToolTip": "D:\\Training (IST)\\VesselOps-FullStack\\VesselOps\\Models\\CrewMember.cs",
               "RelativeToolTip": "Models\\CrewMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:10:20.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T14:10:20.504Z"
             }
           ]
         }

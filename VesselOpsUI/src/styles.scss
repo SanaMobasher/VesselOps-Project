@@ -11,24 +11,27 @@ body {
   box-shadow: 2px 0 5px rgba(0,0,0,0.05);
 }
 
-/* 3. Sidebar Menu Items */
+/* Sidebar Item Base Style */
 .list-group-item {
-  color: #6c757d; /* Muted Gray Text */
-  border: none !important; /* Remove borders */
-  transition: all 0.2s;
-  
+  border: none !important;
+  padding: 12px 20px;
+  color: #6c757d;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+
   &:hover {
-    color: #002b49; /* Marine Blue on hover */
-    background-color: #f8f9fa;
+    background-color: #f1f3f5 !important;
+    color: #002b49;
   }
 }
 
-/* 4. Sidebar Active State (The Highlighted "Overview" button) */
+/* THE ACTIVE STATE (When clicked) */
 .list-group-item.active {
-  background-color:#fafafa !important;
-  color: #002b49 !important; /* Marine Blue */
-  border-left: 4px solid #002b49 !important; /* Blue bar on left */
-  font-weight: 600;
+  background-color: #e9ecef !important; /* Light Gray background */
+  color: #002b49 !important;           /* Marine Blue text */
+  border-left: 4px solid #002b49 !important; /* Blue indicator on the left */
+  font-weight: 700;                    /* Make text bold */
 }
 
 /* 5. Make content background transparent so body gray shows through */

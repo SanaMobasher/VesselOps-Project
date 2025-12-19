@@ -8,27 +8,30 @@
     <!-- Primary Menu -->
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="#">Dashboard</a>
-        </li>
-        
-        <!-- Active Item: Seafarers -->
-        <li class="nav-item position-relative">
-          <a class="nav-link active fw-bold" href="#">
-            Seafarers
-            <!-- The Red Circle Icon -->
-            <i class="bi bi-circle-fill text-danger ms-1" style="font-size: 0.5rem; vertical-align: middle;"></i>
-          </a>
-        </li>
-
-        <li class="nav-item"><a class="nav-link" href="#">Vacancies</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Vessels</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Finance</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">System</a></li>
-      </ul>
-
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+  </li>
+  <li class="nav-item position-relative">
+    <a class="nav-link fw-bold" routerLink="/seafarers/profile" routerLinkActive="active">
+      Seafarers <i class="bi bi-circle-fill text-danger ms-1" style="font-size: 0.5rem;"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/vacancies" routerLinkActive="active">Vacancies</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/vessels" routerLinkActive="active">Vessels</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/reports" routerLinkActive="active">Reports</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/finance" routerLinkActive="active">Finance</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/system" routerLinkActive="active">System</a>
+  </li>
+</ul>
       <!-- Right Section -->
       <div class="d-flex align-items-center gap-3">
         <div class="input-group input-group-sm" style="width: 200px;">
@@ -47,25 +50,50 @@
 <div class="container-fluid" style="margin-top: 60px;">
   <div class="row">
     
-    <!-- Left Sidebar Navigation -->
-    <div class="col-md-2 d-none d-md-block bg-light sidebar border-end vh-100 p-0">
-      <div class="list-group list-group-flush pt-3">
-        <a href="#" class="list-group-item list-group-item-action bg-light active border-0 fw-bold"><i class="bi bi-grid me-2"></i> Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-person me-2"></i> Personal info</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-telephone me-2"></i> Contacts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-people me-2"></i> Next of Kin</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-water me-2"></i> Sea services</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-file-earmark-text me-2"></i> Documents</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-mortarboard me-2"></i> Education</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-cash me-2"></i> Bank</a>
-      </div>
-    </div>
+    <!-- 1. Left Sidebar - Now Conditional -->
+   <div *ngIf="showSidebar" class="col-md-2 d-none d-md-block bg-light sidebar border-end vh-100 p-0">
+  <div class="list-group list-group-flush pt-3">
+    
+    <a routerLink="/seafarers/profile" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-grid me-2"></i> Overview
+    </a>
 
-    <!-- Main Content Area -->
-    <div class="col-md-10 bg-gray-50 p-4">
-      <!-- The Crew Profile Component loads here -->
-      <app-crew-profile></app-crew-profile>
+    <a routerLink="/seafarers/personal" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-person me-2"></i> Personal info
+    </a>
+
+    <a routerLink="/seafarers/contacts" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-telephone me-2"></i> Contacts
+    </a>
+
+    <a routerLink="/seafarers/kin" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-people me-2"></i> Next of Kin
+    </a>
+
+    <a routerLink="/seafarers/services" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-water me-2"></i> Sea services
+    </a>
+
+    <a routerLink="/seafarers/docs" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-file-earmark-text me-2"></i> Documents
+    </a>
+
+    <a routerLink="/seafarers/edu" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-mortarboard me-2"></i> Education
+    </a>
+
+    <a routerLink="/seafarers/bank" routerLinkActive="active" class="list-group-item list-group-item-action">
+      <i class="bi bi-cash me-2"></i> Bank
+    </a>
+
+  </div>
+</div>
+    <!-- 2. Main Content Area -->
+    <!-- We use [ngClass] to change from col-md-10 to col-md-12 if the sidebar is hidden -->
+    <div [ngClass]="showSidebar ? 'col-md-10' : 'col-md-12'" class="bg-gray-50 p-4">
+      <router-outlet></router-outlet>
     </div>
 
   </div>
 </div>
+ 

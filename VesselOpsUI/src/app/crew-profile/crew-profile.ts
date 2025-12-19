@@ -13,14 +13,14 @@ export class CrewProfileComponent {
   // Exact data from your description
   crewMember = {
     id: 288,
-    fullName: 'Nikolay Ivankov',
+    fullName: 'Emma Ivankov',
     rank: 'Master',
     status: 'Available',
     email: 'operatovna709@gmail.com',
     phone: '+0502904800',
     whatsapp: '0502904800',
     skype: 'skype',
-    age: 36,
+    age: 27,
     sex: 'Male', // Assumed Male based on name, corrected from prompt text if needed
     nationality: 'Argentinian',
     address: 'add, dnipro, American Samoa, 49123',
