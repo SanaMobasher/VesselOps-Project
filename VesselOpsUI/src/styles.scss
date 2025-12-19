@@ -1,0 +1,65 @@
+/* 1. Global Dashboard Background */
+body {
+  background-color: #fafafa ;/* Light Gray */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. Sidebar Layout */
+.sidebar {
+  background-color: #ffffff;
+  min-height: 100vh;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+
+/* 3. Sidebar Menu Items */
+.list-group-item {
+  color: #6c757d; /* Muted Gray Text */
+  border: none !important; /* Remove borders */
+  transition: all 0.2s;
+  
+  &:hover {
+    color: #002b49; /* Marine Blue on hover */
+    background-color: #f8f9fa;
+  }
+}
+
+/* 4. Sidebar Active State (The Highlighted "Overview" button) */
+.list-group-item.active {
+  background-color:#fafafa !important;
+  color: #002b49 !important; /* Marine Blue */
+  border-left: 4px solid #002b49 !important; /* Blue bar on left */
+  font-weight: 600;
+}
+
+/* 5. Make content background transparent so body gray shows through */
+.bg-gray-50 {
+  background-color: transparent; 
+}
+
+
+
+/* --- INDEPENDENT TOP NAVIGATION --- */
+.custom-top-nav {
+  /* CHANGE THIS COLOR to whatever you want the header to be */
+  background-color: #7393bc; /* Example: A darker "Deep Space" blue */
+  
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Optional: Style the active link specifically */
+.custom-top-nav .nav-link.active {
+  color: #ffffff !important;
+  border-bottom: 2px solid #dc3545; /* Optional: Red underline for active tab */
+}
+
+
+/* --- SEARCH BAR COLORS --- */
+.custom-top-nav .form-control {
+  background-color: #ced2dc !important; /* Change this HEX code for background */
+  color: #919191 !important;            /* Text Color */
+  border: 1px solid #fafafa !important; /* Border Color */
+  
+  &::placeholder {
+    color: #a0aec0 !important;          /* Placeholder Text Color */
+  }
+}

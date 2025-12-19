@@ -1,0 +1,45 @@
+/* Variables */
+$marine-blue: #002b49;
+$soft-red-bg: #fff5f5;
+$soft-red-text: #cc0000;
+
+/* --- Utility Classes --- */
+.text-marine { color: $marine-blue; }
+.bg-marine { background-color: $marine-blue; }
+.pointer { cursor: pointer; }
+
+/* --- Input Sizing --- */
+.form-control, .input-group-text {
+  font-size: 0.875rem;
+}
+
+/* --- Notes Section Hover Effect --- */
+.note-card:hover {
+  background-color: #e9ecef !important;
+  .note-actions {
+    display: block !important;
+  }
+}
+
+/* --- Breadcrumb Styling --- */
+.breadcrumb-item {
+  font-size: 0.9rem;
+  
+  /* The "Overview" link */
+  &.text-muted {
+    color: #a0a0a1 !important; 
+    font-weight: 500;
+  }
+
+  /* The "Nikolay Ivankov" active text */
+  &.active {
+    color: $marine-blue !important;
+    font-weight: 700;
+  }
+}
+
+/* --- Back Arrow Color --- */
+.bi-arrow-left {
+  color: $marine-blue;
+  font-weight: bold;
+}

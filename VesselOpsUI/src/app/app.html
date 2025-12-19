@@ -1,0 +1,71 @@
+<!-- Top Navigation Bar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark custom-top-nav fixed-top" style="height: 60px; z-index: 1030;">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold me-5" href="#">VesselOps</a>
+
+    <!-- Primary Menu -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dashboard</a>
+        </li>
+        
+        <!-- Active Item: Seafarers -->
+        <li class="nav-item position-relative">
+          <a class="nav-link active fw-bold" href="#">
+            Seafarers
+            <!-- The Red Circle Icon -->
+            <i class="bi bi-circle-fill text-danger ms-1" style="font-size: 0.5rem; vertical-align: middle;"></i>
+          </a>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#">Vacancies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Vessels</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Finance</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">System</a></li>
+      </ul>
+
+      <!-- Right Section -->
+      <div class="d-flex align-items-center gap-3">
+        <div class="input-group input-group-sm" style="width: 200px;">
+          <input type="text" class="form-control bg-dark text-white border-secondary" placeholder="Search...">
+          <button class="btn btn-outline-secondary"><i class="bi bi-search"></i></button>
+        </div>
+        <i class="bi bi-bell text-white fs-5 pointer"></i>
+        <i class="bi bi-question-circle text-white fs-5 pointer"></i>
+        <div class="avatar-circle bg-white text-dark fw-bold d-flex justify-content-center align-items-center" style="width: 32px; height: 32px; border-radius: 50%;">AA</div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Layout Container -->
+<div class="container-fluid" style="margin-top: 60px;">
+  <div class="row">
+    
+    <!-- Left Sidebar Navigation -->
+    <div class="col-md-2 d-none d-md-block bg-light sidebar border-end vh-100 p-0">
+      <div class="list-group list-group-flush pt-3">
+        <a href="#" class="list-group-item list-group-item-action bg-light active border-0 fw-bold"><i class="bi bi-grid me-2"></i> Overview</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-person me-2"></i> Personal info</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-telephone me-2"></i> Contacts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-people me-2"></i> Next of Kin</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-water me-2"></i> Sea services</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-file-earmark-text me-2"></i> Documents</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-mortarboard me-2"></i> Education</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light border-0"><i class="bi bi-cash me-2"></i> Bank</a>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="col-md-10 bg-gray-50 p-4">
+      <!-- The Crew Profile Component loads here -->
+      <app-crew-profile></app-crew-profile>
+    </div>
+
+  </div>
+</div>

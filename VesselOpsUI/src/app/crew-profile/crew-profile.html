@@ -1,0 +1,199 @@
+<!-- 1. Header Section -->
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <div class="d-flex align-items-center gap-2">
+    <button class="btn btn-sm btn-outline-secondary border-0"><i class="bi bi-arrow-left fs-5"></i></button>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item text-muted">Overview</li>
+        <li class="breadcrumb-item active fw-bold text-dark" aria-current="page">{{ crewMember.fullName }} ({{ crewMember.rank | uppercase }})</li>
+      </ol>
+    </nav>
+  </div>
+  <div class="d-flex gap-2">
+    <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-star"></i></button>
+    <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-share"></i></button>
+  </div>
+</div>
+
+<!-- 2. Main Profile Card -->
+<div class="card shadow-sm border-0 mb-4">
+  <div class="card-body p-4">
+    <div class="row">
+      
+      <!-- A. Profile & Contact (Left Side - Col 9) -->
+      <div class="col-lg-9 border-end pe-4">
+        
+        <!-- Top Row: Avatar & Actions -->
+        <div class="d-flex justify-content-between mb-4">
+          <div class="d-flex gap-4">
+            <div class="text-center">
+              <div class="position-relative">
+                <img src="assets/nikolay.jpg" class="rounded-circle border" width="95" height="90" alt="Avatar">
+                <span class="position-absolute bottom-0 end-0 p-2 bg-success border border-light rounded-circle"></span>
+              </div>
+              <a href="#" class="small text-decoration-none mt-1 d-block"><i class="bi bi-download"></i> Edit photo</a>
+            </div>
+            <div>
+              <h3 class="fw-bold mb-0 text-marine">{{ crewMember.fullName }}</h3>
+              <div class="fs-5 fw-bold text-muted">{{ crewMember.rank }}</div>
+            </div>
+          </div>
+          
+          <div class="d-flex gap-2 align-items-start">
+            <button class="btn btn-outline-secondary"><i class="bi bi-envelope"></i> Email</button>
+            <button class="btn btn-primary"><i class="bi bi-box-arrow-up"></i> Export</button>
+            <button class="btn btn-outline-success"><i class="bi bi-whatsapp"></i> WhatsApp</button>
+            <button class="btn btn-outline-danger"><i class="bi bi-archive"></i> Archive</button>
+          </div>
+        </div>
+
+        <!-- Contact Grid -->
+        <div class="row g-3 mb-4">
+          <!-- Left Col -->
+          <div class="col-md-6">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted"><i class="bi bi-card-text me-2"></i>ID</span>
+              <span class="fw-medium">{{ crewMember.id }} <i class="bi bi-copy ms-2 text-primary pointer"></i></span>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted"><i class="bi bi-telephone me-2"></i>Phone</span>
+              <span class="fw-medium text-primary">{{ crewMember.phone }}</span>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted"><i class="bi bi-envelope me-2"></i>Email</span>
+              <span class="fw-medium text-primary text-truncate" style="max-width: 150px;">{{ crewMember.email }}</span>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted"><i class="bi bi-skype me-2"></i>Skype</span>
+              <span class="fw-medium text-primary">{{ crewMember.skype }}</span>
+            </div>
+             <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted"><i class="bi bi-whatsapp me-2"></i>WhatsApp</span>
+              <span class="fw-medium text-success">{{ crewMember.whatsapp }}</span>
+            </div>
+          </div>
+
+          <!-- Right Col -->
+          <div class="col-md-6">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted">Age</span>
+              <span class="fw-medium">{{ crewMember.age }}</span>
+            </div>
+             <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted">Sex</span>
+              <span class="fw-medium">{{ crewMember.sex }}</span>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted">Nationality</span>
+              <span class="fw-medium">{{ crewMember.nationality }}</span>
+            </div>
+             <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted"><i class="bi bi-geo-alt me-2"></i>Address</span>
+              <span class="fw-medium text-end small" style="max-width: 180px;">{{ crewMember.address }}</span>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+              <span class="text-muted">Airport</span>
+              <span class="fw-medium">{{ crewMember.airport }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Labels -->
+        <div class="d-flex align-items-center gap-2 border-top pt-3">
+          <span class="badge rounded-pill" [ngClass]="label.color" *ngFor="let label of crewMember.labels">{{ label.name }}</span>
+          <button class="btn btn-sm btn-link text-decoration-none text-muted"><i class="bi bi-tags"></i> Edit labels</button>
+        </div>
+
+      </div>
+
+      <!-- B. Right Sidebar Panel (Right Side - Col 3) -->
+      <div class="col-lg-3 ps-4">
+        
+        <div class="mb-3">
+          <label class="small text-muted fw-bold">Available from</label>
+          <div class="input-group input-group-sm">
+            <input type="text" class="form-control" [value]="crewMember.availabilityDate">
+            <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="small text-muted fw-bold">Plan</label>
+          <input type="text" class="form-control form-control-sm" [(ngModel)]="crewMember.plan">
+        </div>
+
+        <div class="mb-4">
+          <label class="small text-muted fw-bold">Min salary</label>
+          <input type="text" class="form-control form-control-sm" [value]="crewMember.minSalary">
+        </div>
+
+        <!-- Notes Section -->
+        <div>
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <label class="small text-muted fw-bold">Notes</label>
+            <i class="bi bi-plus-circle text-primary pointer"></i>
+          </div>
+          
+          <div class="d-flex flex-column gap-2">
+            <!-- Note Item -->
+            <div class="bg-light p-2 rounded small position-relative note-card" *ngFor="let note of crewMember.notes">
+              <div class="text-muted" style="font-size: 0.7rem;">{{ note.date | date:'dd.MM.yyyy' }} | {{ note.author }}</div>
+              <div class="text-dark">{{ note.text }}</div>
+              <div class="position-absolute top-0 end-0 p-1 d-none note-actions">
+                <i class="bi bi-pencil text-primary me-1"></i>
+                <i class="bi bi-trash text-danger"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- 3. Experience Cards (Bottom Section) -->
+<div class="row g-4">
+  <!-- Card 1: Stats -->
+  <div class="col-md-4">
+    <div class="card shadow-sm border-0 h-100">
+      <div class="card-body">
+        <h6 class="fw-bold mb-3">Experience</h6>
+        <div class="d-flex justify-content-between mb-2"><span class="text-muted">Total</span> <strong>{{ crewMember.stats.totalYears }} y</strong></div>
+        <div class="d-flex justify-content-between mb-2"><span class="text-muted">Max DWT</span> <strong>{{ crewMember.stats.maxDwt }}</strong></div>
+        <div class="d-flex justify-content-between mb-2"><span class="text-muted">Max GRT</span> <strong>{{ crewMember.stats.maxGrt }}</strong></div>
+        <div class="d-flex justify-content-between mb-2"><span class="text-muted">Master</span> <strong>{{ crewMember.stats.masterYears }} y</strong></div>
+        <div class="d-flex justify-content-between"><span class="text-muted">Max TEU</span> <strong>{{ crewMember.stats.maxTeu }}</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2: Rank -->
+  <div class="col-md-4">
+    <div class="card shadow-sm border-0 h-100">
+      <div class="card-body">
+        <h6 class="fw-bold mb-3">By rank</h6>
+        <div class="d-flex justify-content-between mb-2"><span class="text-muted">SEAMAN</span> <strong>{{ crewMember.rankExp.seaman }} y</strong></div>
+        <div class="d-flex justify-content-between"><span class="text-muted">FIRST MATE</span> <strong>{{ crewMember.rankExp.firstMate }} y</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3: Vessel -->
+  <div class="col-md-4">
+    <div class="card shadow-sm border-0 h-100">
+      <div class="card-body">
+        <h6 class="fw-bold mb-3">By vessel type</h6>
+        <div class="d-flex justify-content-between mb-2"><span class="text-muted">Cruise ship</span> <strong>{{ crewMember.vesselExp.cruise }} y</strong></div>
+        <div class="d-flex justify-content-between"><span class="text-muted">Bulk carrier</span> <strong>{{ crewMember.vesselExp.bulk }} y</strong></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="mt-4 text-muted small d-flex gap-4">
+  <span>Created: {{ crewMember.meta.createdDate | date:'dd.MM.yyyy HH:mm:ss' }} by {{ crewMember.meta.createdBy }}</span>
+  <span>Updated: {{ crewMember.meta.updatedDate | date:'dd.MM.yyyy HH:mm:ss' }} by {{ crewMember.meta.updatedBy }}</span>
+</div>
