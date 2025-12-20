@@ -25,7 +25,7 @@
         <i class="bi" [ngClass]="isEditMode ? 'bi-x-lg' : 'bi-pencil-square'"></i> {{ isEditMode ? 'Cancel' : 'Edit' }}
       </button>
       <button *ngIf="isEditMode" class="btn btn-sm btn-success" (click)="onSave()">Save Changes</button>
-      <button class="btn btn-sm btn-outline-danger" (click)="onArchive()">Archive</button>
+      <button class="btn btn-sm btn-outline-danger" (click)="onArchive()">Delete</button>
     </div>
   </div>
 
