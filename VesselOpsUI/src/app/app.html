@@ -1,3 +1,7 @@
+<a class="nav-link fw-bold" routerLink="/seafarers/list" routerLinkActive="active">
+  Seafarers <i class="bi bi-circle-fill text-danger ms-1" style="font-size: 0.5rem;"></i>
+</a>
+
 <!-- Top Navigation Bar -->
 
 <nav class="navbar navbar-expand-lg navbar-dark custom-top-nav fixed-top" style="height: 60px; z-index: 1030;">
@@ -11,11 +15,14 @@
   <li class="nav-item">
     <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
   </li>
-  <li class="nav-item position-relative">
-    <a class="nav-link fw-bold" routerLink="/seafarers/profile" routerLinkActive="active">
-      Seafarers <i class="bi bi-circle-fill text-danger ms-1" style="font-size: 0.5rem;"></i>
-    </a>
-  </li>
+<!-- Top Navbar -->
+<li class="nav-item position-relative">
+  <!-- This routerLink points specifically to the list page -->
+  <a class="nav-link fw-bold" routerLink="/seafarers/list" routerLinkActive="active">
+    Seafarers
+    <i class="bi bi-circle-fill text-danger ms-1" style="font-size: 0.5rem; vertical-align: middle;"></i>
+  </a>
+</li>
   <li class="nav-item">
     <a class="nav-link" routerLink="/vacancies" routerLinkActive="active">Vacancies</a>
   </li>
@@ -52,15 +59,21 @@
     
     <!-- 1. Left Sidebar - Now Conditional -->
    <div *ngIf="showSidebar" class="col-md-2 d-none d-md-block bg-light sidebar border-end vh-100 p-0">
-  <div class="list-group list-group-flush pt-3">
-    
-    <a routerLink="/seafarers/profile" routerLinkActive="active" class="list-group-item list-group-item-action">
-      <i class="bi bi-grid me-2"></i> Overview
-    </a>
+<div class="list-group list-group-flush pt-3">
+  
+  <!-- 1. Overview now takes you to the list -->
+  <a routerLink="/seafarers/list" routerLinkActive="active" class="list-group-item list-group-item-action">
+    <i class="bi bi-grid me-2"></i> Overview (List)
+  </a>
 
-    <a routerLink="/seafarers/personal" routerLinkActive="active" class="list-group-item list-group-item-action">
-      <i class="bi bi-person me-2"></i> Personal info
-    </a>
+  <!-- 2. Personal info link -->
+  <!-- Note: In a real app, this would use a variable. For now, let's keep it at /1 -->
+  <!-- Change from /1 to /{{ currentId }} -->
+<a [routerLink]="['/seafarers/personal', currentId]" 
+   routerLinkActive="active" 
+   class="list-group-item list-group-item-action">
+    <i class="bi bi-person me-2"></i> Personal info
+</a>
 
     <a routerLink="/seafarers/contacts" routerLinkActive="active" class="list-group-item list-group-item-action">
       <i class="bi bi-telephone me-2"></i> Contacts
